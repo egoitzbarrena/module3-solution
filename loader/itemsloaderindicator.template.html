@@ -1,0 +1,7 @@
+<div class="loader">
+<ol>
+  <li ng-repeat="item in founditems">
+    {{ item.quantity }} of {{ item.name }}
+    <button ng-click="onRemove({index});">Remove Item</button>
+  </ol>  </li>
+</div>
